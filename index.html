@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactions sans contact</title>
+    <link rel="stylesheet" href="./dependancies/mdl/material.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./dependancies/mdl/material.min.js"></script>
+    <script src="https://d3js.org/d3.v6.js"></script>
+
+
+    <!--getmdl-select-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="dependancies/getmdl-select-master/getmdl-select.min.css">
+    <link rel="stylesheet" href="./styles/mainstyle.css">
+    <script defer src="dependancies/getmdl-select-master/getmdl-select.min.js"></script>
+    <script defer src="./utils/Data.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./imgs/logo.png" alt="UFR MIM Logo" class="logo">
+        <h1 class="title">Fitt's Law analyse</h1>
+        <hr class="separator" />
+    </header>
+    <form class="form_card">
+        <h1 class="form_card_title">Import your CSV</h1>
+        <hr />
+        <label for="file" class="form_card_elt">CSV to Analyse: </label>
+        <input type="file" value="Upload CSV" id="file" name="file" class="form_card_elt"/>
+        <i><span id="message" class="form_card_elt" style="margin-bottom: 3%; color: #ad1457"></span></i>
+    </form>
+    <div id="visualisation">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <select class="mdl-textfield__input" id="dataSelector" name="dataSelector">
+            </select>
+            <label class="mdl-textfield__label" for="dataSelector">Data</label>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="scripts/Fitts.js"></script>
+</html>
+
+

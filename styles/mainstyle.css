@@ -1,0 +1,77 @@
+body {
+    max-width: 100%;
+    width: 100%;
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    width: 20%;
+    margin-left: 2%;
+    float: left;
+}
+
+.title {
+    display: block;
+    margin-left: 5%;
+    font-size: 3rem;
+    float: left;
+}
+
+hr.separator {
+    float: none;
+    clear: both;
+    border: 2px solid #696969;
+    background-color: #696969;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.85);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.85);
+}
+
+
+.form_card {
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #696969;
+    text-align: center;
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.form_card_title {
+    font-size: 1.5rem;
+    color: #696969;
+}
+
+.form_card_elt {
+    display: block;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#drop_zone {
+    display: block;
+    width: 70%;
+    height: 5rem;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+#visualisation {
+    display: none;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
